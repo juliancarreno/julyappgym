@@ -1,0 +1,750 @@
+{
+ "app": "entreno-familiar",
+ "version": 1,
+ "exportedAt": "2026-11-25T17:34:20.719Z",
+ "people": [
+  {
+   "id": "julian",
+   "person": {
+    "color": 0,
+    "createdAt": "2026-11-25T17:04:18.455Z",
+    "gymUnit": "lb",
+    "heightCm": 173,
+    "name": "Julián",
+    "types": [
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "composicion",
+      "key": "peso",
+      "name": "Peso",
+      "unit": "kg"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "composicion",
+      "key": "imc",
+      "name": "IMC",
+      "unit": ""
+     },
+     {
+      "active": true,
+      "better": "down",
+      "dec": 1,
+      "group": "composicion",
+      "key": "grasa_pct",
+      "name": "Grasa corporal",
+      "unit": "%"
+     },
+     {
+      "active": true,
+      "better": "down",
+      "dec": 1,
+      "group": "composicion",
+      "key": "masa_grasa",
+      "name": "Masa grasa",
+      "unit": "kg"
+     },
+     {
+      "active": true,
+      "better": "up",
+      "dec": 1,
+      "group": "composicion",
+      "key": "musculo_kg",
+      "name": "Masa muscular",
+      "unit": "kg"
+     },
+     {
+      "active": true,
+      "better": "up",
+      "dec": 1,
+      "group": "composicion",
+      "key": "musculo_pct",
+      "name": "Masa muscular",
+      "unit": "%"
+     },
+     {
+      "active": true,
+      "better": "up",
+      "dec": 1,
+      "group": "composicion",
+      "key": "musculo_esq",
+      "name": "Músculo esquelético",
+      "unit": "kg"
+     },
+     {
+      "active": true,
+      "better": "down",
+      "dec": 0,
+      "group": "composicion",
+      "key": "grasa_visceral",
+      "name": "Grasa visceral",
+      "unit": "nivel"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "composicion",
+      "key": "agua_pct",
+      "name": "Agua corporal",
+      "unit": "%"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 0,
+      "group": "composicion",
+      "key": "metabolismo",
+      "name": "Metabolismo basal",
+      "unit": "kcal"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "perimetros",
+      "key": "biceps_izq",
+      "name": "Bíceps izquierdo",
+      "unit": "cm"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "perimetros",
+      "key": "biceps_der",
+      "name": "Bíceps derecho",
+      "unit": "cm"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "perimetros",
+      "key": "pecho",
+      "name": "Pecho",
+      "unit": "cm"
+     },
+     {
+      "active": true,
+      "better": "down",
+      "dec": 1,
+      "group": "perimetros",
+      "key": "abdomen",
+      "name": "Abdomen / cintura",
+      "unit": "cm"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "perimetros",
+      "key": "muslo_izq",
+      "name": "Muslo izquierdo",
+      "unit": "cm"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "perimetros",
+      "key": "muslo_der",
+      "name": "Muslo derecho",
+      "unit": "cm"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "perimetros",
+      "key": "pantorrilla_izq",
+      "name": "Pantorrilla izquierda",
+      "unit": "cm"
+     },
+     {
+      "active": true,
+      "better": "neutral",
+      "dec": 1,
+      "group": "perimetros",
+      "key": "pantorrilla_der",
+      "name": "Pantorrilla derecha",
+      "unit": "cm"
+     }
+    ]
+   },
+   "measurements": [],
+   "exercises": [
+    {
+     "id": "mwwdigbm48xhf",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Remo polea abierto sent"
+    },
+    {
+     "id": "mwwdigbm4evpy",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Rotación cadera pide"
+    },
+    {
+     "id": "mwwdigbm4n5xf",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Vuelos pectorales maq"
+    },
+    {
+     "id": "mwwdigbm7ubx8",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Pull down polea pie"
+    },
+    {
+     "id": "mwwdigbm7vsdr",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Extensión cadera libre pie"
+    },
+    {
+     "id": "mwwdigbmbq9ts",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Abducción cadera unipodal libre"
+    },
+    {
+     "id": "mwwdigbmffr48",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Halon polea cerrado sent"
+    },
+    {
+     "id": "mwwdigbmlxv30",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Flexión codos barra polea"
+    },
+    {
+     "id": "mwwdigbmx5zci",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Press pecho sent maq"
+    },
+    {
+     "id": "mwwdigbo06qo1",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Elevación talones maq pie"
+    },
+    {
+     "id": "mwwdigbo0hf8m",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Sentadilla"
+    },
+    {
+     "id": "mwwdigbo8sjve",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Remo sent maq"
+    },
+    {
+     "id": "mwwdigbo9day8",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Flexión rodilla sent"
+    },
+    {
+     "id": "mwwdigbobkyrj",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Halon unilat maq"
+    },
+    {
+     "id": "mwwdigbobrmrd",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Estocada estática"
+    },
+    {
+     "id": "mwwdigbobyfty",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Extensión rodilla maq"
+    },
+    {
+     "id": "mwwdigbod4q1z",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Press pecho maq sent"
+    },
+    {
+     "id": "mwwdigbofq8r7",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Aduccion cadera maq"
+    },
+    {
+     "id": "mwwdigbok5w9o",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Balanceo talones puntas pie"
+    },
+    {
+     "id": "mwwdigbokplma",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Flexion ext columna"
+    },
+    {
+     "id": "mwwdigbopj3jo",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Flexión rodilla sent maq"
+    },
+    {
+     "id": "mwwdigboq3i5p",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Prensa incl maq"
+    },
+    {
+     "id": "mwwdigbos5ics",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Crunch abdomen sent maq"
+    },
+    {
+     "id": "mwwdigbot6nlg",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Circulos brazos"
+    },
+    {
+     "id": "mwwdigbou9fr6",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Crunch abdom sent maq"
+    },
+    {
+     "id": "mwwdigboxdlfl",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Press incl manc"
+    },
+    {
+     "id": "mwwdigbozf9y3",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "group": "",
+     "name": "Extensión lumbar maq"
+    }
+   ],
+   "programs": [
+    {
+     "id": "mwwdigbmfobbe",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "goal": "",
+     "name": "Programa principal"
+    }
+   ],
+   "cycles": [
+    {
+     "id": "mwwdigboyuyr4",
+     "createdAt": "2026-11-25T17:04:18.455Z",
+     "days": [
+      {
+       "exercises": [
+        {
+         "eid": "mwwdigbmx5zci",
+         "id": "mwwdigbmqbtf8",
+         "link": "",
+         "name": "Press pecho sent maq",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbm4n5xf",
+         "id": "mwwdigbm3622t",
+         "link": "",
+         "name": "Vuelos pectorales maq",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbmffr48",
+         "id": "mwwdigbm36zn6",
+         "link": "",
+         "name": "Halon polea cerrado sent",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbm48xhf",
+         "id": "mwwdigbmi6z7i",
+         "link": "",
+         "name": "Remo polea abierto sent",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbm7ubx8",
+         "id": "mwwdigbmx04ks",
+         "link": "",
+         "name": "Pull down polea pie",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "placas"
+        },
+        {
+         "eid": "mwwdigbmlxv30",
+         "id": "mwwdigbmshl8h",
+         "link": "",
+         "name": "Flexión codos barra polea",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "placas"
+        }
+       ],
+       "id": "mwwdigbmp4suk",
+       "name": "TORSO A1"
+      },
+      {
+       "exercises": [
+        {
+         "eid": "mwwdigbmbq9ts",
+         "id": "mwwdigbmrob5v",
+         "link": "",
+         "name": "Abducción cadera unipodal libre",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "warmup",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "sin"
+        },
+        {
+         "eid": "mwwdigbm4evpy",
+         "id": "mwwdigbml9951",
+         "link": "",
+         "name": "Rotación cadera pide",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "warmup",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "sin"
+        },
+        {
+         "eid": "mwwdigbm7vsdr",
+         "id": "mwwdigbmmlrkx",
+         "link": "",
+         "name": "Extensión cadera libre pie",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "warmup",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "sin"
+        },
+        {
+         "eid": "mwwdigbok5w9o",
+         "id": "mwwdigbo4oz8m",
+         "link": "",
+         "name": "Balanceo talones puntas pie",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "warmup",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "sin"
+        },
+        {
+         "eid": "mwwdigboq3i5p",
+         "id": "mwwdigbobq5h1",
+         "link": "",
+         "name": "Prensa incl maq",
+         "notes": "Ref. de la hoja: 320/360/360",
+         "reps": 12,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbofq8r7",
+         "id": "mwwdigboj6v57",
+         "link": "",
+         "name": "Aduccion cadera maq",
+         "notes": "",
+         "reps": 20,
+         "rest": null,
+         "section": "main",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbobrmrd",
+         "id": "mwwdigbonaxi6",
+         "link": "",
+         "name": "Estocada estática",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbo06qo1",
+         "id": "mwwdigboih68b",
+         "link": "",
+         "name": "Elevación talones maq pie",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbobyfty",
+         "id": "mwwdigbovp8zn",
+         "link": "",
+         "name": "Extensión rodilla maq",
+         "notes": "Ref. de la hoja: 135/135/135",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbopj3jo",
+         "id": "mwwdigboxckgn",
+         "link": "",
+         "name": "Flexión rodilla sent maq",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbos5ics",
+         "id": "mwwdigboq5aj1",
+         "link": "",
+         "name": "Crunch abdomen sent maq",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        }
+       ],
+       "id": "mwwdigbm697z3",
+       "name": "PIERNA A2.1"
+      },
+      {
+       "exercises": [
+        {
+         "eid": "mwwdigbot6nlg",
+         "id": "mwwdigboglbf2",
+         "link": "",
+         "name": "Circulos brazos",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "warmup",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "sin"
+        },
+        {
+         "eid": "mwwdigbokplma",
+         "id": "mwwdigboc5m50",
+         "link": "",
+         "name": "Flexion ext columna",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "warmup",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "sin"
+        },
+        {
+         "eid": "mwwdigbo0hf8m",
+         "id": "mwwdigbooecma",
+         "link": "",
+         "name": "Sentadilla",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "warmup",
+         "sets": 2,
+         "targetWeight": null,
+         "unit": "sin"
+        },
+        {
+         "eid": "mwwdigbod4q1z",
+         "id": "mwwdigbo3t5qv",
+         "link": "",
+         "name": "Press pecho maq sent",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbo8sjve",
+         "id": "mwwdigbo669lw",
+         "link": "",
+         "name": "Remo sent maq",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigboxdlfl",
+         "id": "mwwdigboyecmy",
+         "link": "",
+         "name": "Press incl manc",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbobkyrj",
+         "id": "mwwdigbobegay",
+         "link": "",
+         "name": "Halon unilat maq",
+         "notes": "",
+         "reps": 12,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigboq3i5p",
+         "id": "mwwdigbo2o5sk",
+         "link": "",
+         "name": "Prensa incl maq",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 4,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbo9day8",
+         "id": "mwwdigboqbsx0",
+         "link": "",
+         "name": "Flexión rodilla sent",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbozf9y3",
+         "id": "mwwdigbomo4xq",
+         "link": "",
+         "name": "Extensión lumbar maq",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        },
+        {
+         "eid": "mwwdigbou9fr6",
+         "id": "mwwdigboo128u",
+         "link": "",
+         "name": "Crunch abdom sent maq",
+         "notes": "",
+         "reps": 15,
+         "rest": null,
+         "section": "main",
+         "sets": 3,
+         "targetWeight": null,
+         "unit": "lb"
+        }
+       ],
+       "id": "mwwdigbo27n5w",
+       "name": "FULL BODY"
+      }
+     ],
+     "end": "",
+     "name": "Ciclo 1",
+     "programId": "mwwdigbmfobbe",
+     "start": "2026-11-25",
+     "status": "active"
+    }
+   ],
+   "sessions": []
+  }
+ ]
+}
